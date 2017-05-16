@@ -1,0 +1,47 @@
+body{
+ font-family: 'Roboto Mono', monospace;
+}
+div {
+  padding-top: 80px;
+}
+table{
+  table-layout:fixed
+  border: 2px solid black;
+  border-collapse: separate !important;
+  border-radius: 15px;
+   width:300px;
+  height:450px;
+ background-color: #3A3C3D;
+ 
+}
+
+td{
+  text-align:center;
+  width:25%;
+ white-space: nowrap; 
+  overflow: hidden
+  
+}
+input {
+  background-color: #1a1a00;
+  color:white;
+  font-size: 30px;
+  width:50px;
+  border-radius: 20px;
+}
+#equals{
+   width:130px;
+}
+
+#output{
+  height: 70px;
+  border: 3px solid black;
+  border-radius: 20px;
+   background-color: #A5B5A7;
+    margin: 30px;
+  font-size:30px;
+  color:black;
+  text-align:center;
+  padding: 11px 0px 11px 0px;
+}
+
